@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.contentheader, .awesomecontent, .randominfo {
+    width: 960px;   
+    margin: auto;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+ul.headerlinks {
+    list-style: none;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 10px;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #f9faf8;
+    gap: 10px;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.topline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.herosecond {
+    font-size: 18px;
+    color: #e6e7eb;
+}
+
+.awesomecontent {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.awesomeleft {
+    width: 500px;
+    padding: 8px;
+}
+button {
+    background: #3882f6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 100px;
+    border: 1px solid #3882f6;
+  }
+
+.informationheader {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quotesection {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.awesomeimage {
+    background-color: #e5e7eb;
+    padding: 8px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
